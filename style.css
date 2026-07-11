@@ -65,3 +65,24 @@ footer {
   padding: 20px;
   opacity: 0.6;
 }
+
+.tech-stack {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
+
+.tech {
+    background-color: #2d2d3f;
+    color: #00d4ff;
+    padding: 6px 12px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.tech:hover {
+    background-color: #00d4ff;
+    color: black;
+}
